@@ -1,0 +1,102 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.customnab ul li a {
+    font-size: 14px !important;
+}
+.slider-text h2{
+    font-size: 90px !important;
+}
+.slider-text {
+    line-height: 30px !important;
+}
+#comment {
+    height: 118vh !important;
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media (min-width: 480px) and (max-width: 767px) { 
+.customnab .navbar-default {
+    background-color: #5fc3ff !important;
+    z-index: 2 !important;
+    border-radius: 7px !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fdfbfb !important;
+}
+.customnab ul li a {
+    font-size: 14px !important;
+}
+.slider-text h2{
+    font-size: 70px !important;
+    line-height: 95px !important;
+}
+.slider-text {
+    line-height: 20px !important;
+}
+.baguetteBoxFour img{
+    width: 100% !important;
+    max-width: none !important;
+}
+.gallery-header h3, .comment-header h3,.service-header  h3{
+    font-size: 30px !important;
+}
+.service-header p span {
+    font-size: 17px !important;
+}
+.social-footer {
+    float: inherit !important;
+    text-align: center !important;
+}
+#footer {
+ 
+    text-align: center !important;
+}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 479px) { 
+ .customnab .navbar-default {
+    background-color: #5fc3ff !important;
+    z-index: 2;
+    border-radius: 5px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fdfbfb;
+}
+.customnab ul li a {
+    font-size: 10px !important;
+}
+.slider-text h2{
+    font-size: 40px !important;
+    line-height: 60px !important;
+}
+.slider-text {
+    line-height: 20px !important;
+}
+.baguetteBoxFour img{
+    width: 100% !important;
+    max-width: none !important;
+}
+.gallery-header h3, .comment-header h3,.service-header  h3{
+    font-size: 25px !important;
+}
+.service-header p span {
+    font-size: 14px !important;
+}
+.social-footer {
+    float: inherit !important;
+    text-align: center !important;
+}
+#footer {
+ 
+    text-align: center !important;
+}
+}
